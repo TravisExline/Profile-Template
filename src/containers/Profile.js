@@ -1,14 +1,16 @@
 import React from 'react'
+import NavBar from '../components/NavBar'
+import ProfileBanner from '../components/ProfileBanner'
 
 class Profile extends React.Component {
     render() {
         return (
             <div>
                 <section>
-                    Search / Navlink
+                    <NavBar />
                 </section>
                 <section>
-                    Profile Header
+                    <ProfileBanner />
                 </section>
                 <section>
                     Sidebar
